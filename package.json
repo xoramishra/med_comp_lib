@@ -1,6 +1,6 @@
 {
-  "name": "wcomp",
-  "version": "1.0.0",
+  "name": "xor-wcomp",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "antd": "^4.22.2"
+  }
 }

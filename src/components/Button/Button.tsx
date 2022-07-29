@@ -1,11 +1,12 @@
-import React from "react";
-
+import React, { ReactChild } from "react";
+import { Button as AntButton} from 'antd';
 export interface ButtonProps {
   label: string;
+  children:ReactChild
 }
 
 const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>;
+  return <AntButton>{props.children}</AntButton>;
 };
 
 export default Button;
