@@ -1,6 +1,6 @@
 {
   "name": "xor-wcomp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "rollup": "^2.77.2",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },
